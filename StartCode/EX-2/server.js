@@ -38,6 +38,7 @@ app.get('/departments/:dept/courses', (req, res) => {
 
     return true;
   });
+  
 
   res.json({
     results,
